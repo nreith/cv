@@ -1,7 +1,6 @@
 # Nick Reith, Ph.D.
 
 **Solutions Architect | AI/ML Engineer | Data Scientist | Product Owner**
-
 Round Rock, TX | nreith@gmail.com | (646) 821-1880 | [LinkedIn](https://www.linkedin.com/in/nreith) | [Indeed](https://profile.indeed.com/p/nicholasr-t4q670g) | [GitHub](http://www.github.com/nreith)
 
 ---
@@ -15,13 +14,13 @@ Solutions Architect, AI/ML Engineer, Data Scientist, and Product Owner with over
 ## Experience
 
 ### **Solutions Architect / Product Owner / Data Scientist - AI Acceleration Platform**
-**Dell Technologies** | Round Rock, TX | April 2021 – Present
+**Dell Technologies** | Round Rock, TX | 2021 – Present
 
 **Leadership & Strategy**
 * **Platform Growth:** Scaled an internal AI/ML "startup" platform (DSX/AIA) from Beta to 60,000+ users, achieving a 350%+ QoQ growth rate and delivering over $100M in business value.
 * **Team Management:** Led 3 different engineering teams (15-20 software engineers total) through significant organizational change, managing 5 core products via Agile sprints (Max 2 teams simultaneously).
 * **Stakeholder Management:** Coordinated key partnerships with **VMware and NVIDIA** to accelerate delivery of high-performance computing; managed internal partnerships with critical customers of Dell IT's AI capabilities.
-* **Mentorship:** Formally mentored 15+ junior engineers and data scientists. Led department-wide "Deep Dives" workshops and regular "Office Hours" to upskill developers in Linux/container literacy, Kubernetes, cicd, debugging and other important skills.
+* **Mentorship:** Formally mentored 15+ junior engineers and data scientists. Led department-wide "Deep Dives" workshops and regular "Office Hours" to upskill developers in Linux/container literacy, Kubernetes, CI/CD, debugging, and advanced system optimization.
 * **Teaching & Documentation:** Authored 150+ technical documents (how-to guides, product specs). Developed and taught a dozen sessions on GenAI literacy and AI Evaluation ("Bringing Data Science Back into AI").
 * **Enablement:** Maintained a "Day-One Dev Setup" used by thousands of Dell developers to standardize Windows/WSL 2 environments with specific corporate tooling and configurations.
 
@@ -31,13 +30,13 @@ Solutions Architect, AI/ML Engineer, Data Scientist, and Product Owner with over
 * **Cloud-Native Solutions:** Coordinated technical solutioning and security advising for a substantial AWS cloud-prem deployment of Glean.AI (Dell Sales Chat), ensuring on-time delivery by resolving complex hybrid-cloud+prem networking and IAM role-mapping challenges.
 * **High Availability & Scale:** Maintained 100% uptime through two successful Black Friday sales events, with millions of daily agent conversations, demonstrating extreme performance and stability through pre-event load testing and automated scaling policies.
 * **AIA Platform Architecture:** Major contributor to company-wide AI Acceleration Platform including centralized auth, routing, logging, and session management via a common API gateway.
-* **Core Product Engineering:** Architected and contributed code to **AskDell** (Agentic AI/RAG Chatbot), **Intent-Orchestrator** (Agentic framework), **JupyterHub**, **MLFlowHub (Multi-Tenant MLFLow)**, **Dell Feature Store** (Feast fork), and **Kserve** (Model Inferencing).
+* **Core Product Engineering:** Architected and contributed code to **AskDell** (Agentic AI/RAG Chatbot), **Intent-Orchestrator** (Agentic framework), **JupyterHub**, **MLFlowHub (Multi-Tenant MLFlow)**, **Dell Feature Store** (Feast fork), and **Kserve** (Model Inferencing).
 * **Kubernetes Excellence:** Re-architected products for High Availability (HA) and multi-cluster failover across diverse data centers; reduced security vulnerabilities by 50%+ through custom Linux config scripts and automated hardening.
 * **GPU & Infrastructure:** Developed POC for GPU-enabled JupyterHub on K8s with enterprise authentication; led an initiative to build HCI clusters with 50+ massive CPU servers and 8 GPU servers for accelerating POCs.
 * **Operations & Support:** Achieved 99.9%+ uptime and reduced support tickets per user per week by 75% through improved observability KPIs and technical maturity.
 
 ### **Sr. Data Scientist / Machine Learning Engineer**
-**Dell Technologies** | Round Rock, TX | May 2018 – April 2021
+**Dell Technologies** | Round Rock, TX | 2018 – 2021
 
 * **End-to-End ML:** Managed full lifecycle from POC/exploration to productionalization and MLOps automation (CI/CD) on Kubernetes and serverless architectures.
 * **Recommender Systems:** Built a search-based recommender system utilizing keyword search and filters with **sub-50ms latency**.
@@ -47,15 +46,24 @@ Solutions Architect, AI/ML Engineer, Data Scientist, and Product Owner with over
 * **Infrastructure Bottlenecks:** Built dev solutions to provide compute for model training with CPU/GPU and built CI/CD pipelines to publish Python packages and deploy model-serving APIs.
 * **Pipelines & Tooling:** Wrote reusable CI/CD templates (Azure DevOps, GitLab CI), including secrets management and automated scanning.
 * **Knowledge Leadership:** Founded/curated internal wiki **"Data Scientists' Guide to the Galaxy"** and authored several internal Git repos for shared resources (Linux config, scripted Linux-on-Windows setup).
+
 ### **Post-Doctoral Data Scientist**
-**University of Texas at Austin** | Austin, TX | May 2017 – May 2018
+**University of Texas at Austin** | Austin, TX | 2017 – 2018
 
 * **Automated Data Engineering Pipelines:** Engineered a parallelized ingestion engine to parse 100M+ heterogeneous XML records, implementing custom schema-on-read logic to handle longitudinal data drift. Developed a **Topic Modeling pipeline (LDA/BERTopic)** to categorize non-profit operational shifts over a 20-year period.
 * **Advanced Analytics:** Performed Natural Language Processing (NLP), Topic Modeling, and clustering analysis on massive text corpora to transform raw unstructured data into a structured knowledge graph.
 * **Optimization:** Refactored and optimized existing codebases using vectorization and multiprocessing, reducing processing runtimes from weeks/days to hours.
 
+### **Ph.D. & Dissertation Research**
+**University of Texas at Austin** | Austin, TX | 2014 – 2017
+
+* **Computational Sociology:** Pioneered a multi-methodological approach to social movement research, building a unique multi-source dataset (geocoding map data, 100s of GB of event data, NLP on French/Arabic documents).
+* **Predictive Modeling of Social Dynamics:** Modeled the spread and intensity of civil unrest using spatio-temporal survival analysis; elucidated the mechanisms by which localized tribal revolts scaled into a nationwide revolution during the Tunisian Arab Spring.
+* **Dissemination:** Published 6 peer-reviewed journal articles and several white papers; presented results to technical and policy audiences.
+
+
 ### **Stats & Methods Teaching / Research Assistant**
-**University of Texas at Austin** | Austin, TX | January 2011 – May 2017
+**University of Texas at Austin** | Austin, TX | 2010 – 2017
 
 * **Instruction:** Personally selected by Professors in several departments for expertise to teach PhD and undergraduate statistics, programming, and methods for 6 semesters.
 * **Curriculum Design:** Designed stats programming labs for Stata, used for several years by the UT Sociology Department.
@@ -63,22 +71,12 @@ Solutions Architect, AI/ML Engineer, Data Scientist, and Product Owner with over
 * **Modeling:** Fitted complex models including multi-level/mixed-effects regressions, survival analysis, and genetic algorithms for network core-periphery estimation.
 * **Methodological Innovation:** Developed a new Bayesian method for diagnosing and imputing missing data in time-series network data using multi-level prediction.
 
-### **Ph.D. & Dissertation Research**
-**University of Texas at Austin** | Austin, TX | August 2010 – May 2017
-
-* **Computational Sociology:** Pioneered a multi-methodological approach to social movement research, building a unique multi-source dataset (geocoding map data, 100s of GB of event data, NLP on French/Arabic documents).
-* **Predictive Modeling of Social Dynamics:** Explained the contagion of a local tribal revolt into a nationwide revolution, by predicted intensity and spread of protest and violence during the Tunisian Revolution using temporal/spatial effects and survival models.
-* **Predictive Modeling of Social Dynamics:** Modeled the spread and intensity of civil unrest using spatio-temporal survival analysis; elucidated the mechanisms by which localized tribal revolts scaled into a nationwide revolution during the Tunisian Arab Spring.
-* **Dissemination:** Published 6 peer-reviewed journal articles and several white papers; presented results to technical and policy audiences.
-
 ### **Program & Policy Advisor**
-**United Nations Development Programme (UNDP)** | NY & Beirut | May 2005 – July 2010
+**United Nations Development Programme (UNDP)** | NY & Beirut | 2005 – 2010
 
 * **Strategic Advising & Portfolio Management:** Policy advisor to high-level UN officials on regional political and economic development; provided oversight and strategic alignment for an annual regional expenditure of ~$880M USD. Specialized in bridging the gap between complex quantitative metrics and strategic policy implementation across 18+ country offices and diverse governmental stakeholders.
-
 * **Operations & Security Coordination:** Served as Security Focal Point for regional headquarters, managing building and personnel security protocols. Led critical post-crisis security hardening and risk mitigation strategies following the 2007 Algiers bombing, ensuring the safety and continuity of international staff and operations in high-risk environments.
-
-* **Regional Program Architecture:** Orchestrated cross-border initiatives and managed international training programs with a budget in excess of ~$50ms USD that synchronized policy objectives between UN headquarters and decentralized country offices.
+* **Regional Program Architecture:** Orchestrated cross-border initiatives and managed international training programs with a budget in excess of ~$50M USD that synchronized policy objectives between UN headquarters and decentralized country offices.
 
 ---
 
@@ -89,7 +87,7 @@ Solutions Architect, AI/ML Engineer, Data Scientist, and Product Owner with over
 * **M.A. in Arab Studies (Political Science)** | Georgetown University | 2004
     * *Cum Laude; FLAS and Sabah Fellowships*
 * **B.A. in French, Spanish, Religious Studies** | NYU | 2002
-    * *Magna Cum Laude; Phi Beta Kappa, with Honors*
+    * *Magna Comm Laude; Phi Beta Kappa; with Honors*
 * **Fulbright Fellowship** | L'Institut Français du Proche-Orient | 2005
     * *Arabic Language and Literature (Damascus, Syria)*
 
