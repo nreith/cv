@@ -1,6 +1,9 @@
 # Nick Reith, Ph.D.
+
 **Solutions Architect | AI/ML Engineer | Data Scientist | Product Owner**
+
 Round Rock, TX | nreith@gmail.com | (646) 821-1880
+
 [LinkedIn](https://www.linkedin.com/in/nreith) | [GitHub](http://www.github.com/nreith) | [Indeed](https://profile.indeed.com/p/nicholasr-t4q670g)
 
 ---
@@ -13,7 +16,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 ---
 ## **Technical Skills**
 
-| Domain | Competencies & Tools |
+| **Domain** | **Competencies & Tools** |
 | :--- | :--- |
 | **Agentic AI & GenAI** | Agentic Workflows (ReAct, Planning, Reflection, Self-Correction), Multi-Agent Systems (LangGraph, CrewAI, AutoGen), Model Context Protocol (MCP), Agent to Agent (A2A), Tool Use/Function Calling, RAG 2.0 (GraphRAG, Hybrid Search, Semantic Caching), Prompt Engineering (DSPy, Chain-of-Thought), LLM Eval (RAGAS, MLFlow, DeepEval/G-Eval). |
 | **Architecture & Cloud** | Kubernetes (Multi-cluster/HA), Microservices, Distributed Systems, Azure/AWS/Hybrid Cloud and On-Prem, Infrastructure as Code (Terraform, Ansible), Linux and Container Optimization, Global Load Balancing. |
@@ -26,10 +29,10 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 
 ## **Professional Experience**
 
-### **Solutions Architect / Product Owner / Data Scientist - AI Acceleration Platform**
+### **Solutions Architect / Product Owner / Sr. Data Scientist - AI Acceleration Platform**
 **Dell Technologies** | Round Rock, TX | *2021 – Present*
 
-*Architect and Product Owner for major components of Dell's internal AI/ML "startup" platform (DSX/AIA), scaling from Beta to enterprise adoption.*
+*Architect and Product Owner for major components of Dell's internal AI/ML "startup" platform (DSX/AIA), scaling from Beta to enterprise adoption. Promoted twice during tenure.*
 
 **Strategic Leadership & Product Growth**
 * **Hyper-Growth Scaling:** Scaled platform adoption to **60,000+ unique users**, achieving a **350%+ QoQ growth rate** and delivering over **$100M in estimated business value** through productivity gains, license cost savings, and LLM cost savings.
@@ -57,7 +60,9 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 ### **Sr. Data Scientist / Machine Learning Engineer**
 **Dell Technologies** | Round Rock, TX | *2018 – 2021*
 
- **End-to-End MLOps:** Managed full lifecycle from POC to production on Kubernetes/Serverless. Built automated **ML test harnesses** to detect model drift (PSI, Kolmogorov-Smirnov), triggering automated retraining loops.
+*Founding member of the Data Science practice; established core MLOps standards, CI/CD pipelines, and deployed high-frequency inference systems on Kubernetes.*
+
+* **End-to-End MLOps:** Managed full lifecycle from POC to production on Kubernetes/Serverless. Built automated **ML test harnesses** to detect model drift (PSI, Kolmogorov-Smirnov), triggering automated retraining loops.
 * **Low-Latency Recommender:** Built a search-based recommender system achieving **sub-50ms latency**, directly improving how-to solution accuracy.
 * **Predictive Modeling:** Trained and deployed models to improve accuracy in predicting hardware solutions and part failures.
 * **Production Engineering:** Wrote production-grade **Python (FastAPI)** and **C#** APIs. Containerized front-end apps and back-end models, utilizing Azure DevOps/GitLab CI for automated scanning and secrets management.
@@ -68,6 +73,8 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 ### **Post-Doctoral Data Scientist**
 **University of Texas at Austin** | Austin, TX | *2017 – 2018*
 
+*Lead engineer for large-scale data ingestion pipelines, transforming 100M+ unstructured records into structured knowledge graphs to accelerate departmental research.*
+
 * **Big Data Pipelines:** Engineered a parallelized ingestion engine to parse **100M+ heterogeneous XML records**. Implemented custom schema-on-read logic to handle longitudinal data drift.
 * **NLP & Topic Modeling:** Developed **LDA/BERTopic pipelines** to categorize 20 years of non-profit operational shifts, transforming unstructured text into structured knowledge graphs.
 * **Code Optimization:** Refactored legacy research codebases using vectorization and multiprocessing, reducing runtimes from **weeks to hours**.
@@ -75,12 +82,16 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 ### **Ph.D. Researcher & Dissertation Research**
 **University of Texas at Austin** | Austin, TX | *2014 – 2017*
 
+*Pioneered computational sociology methods by building multi-source datasets and applying predictive survival analysis to model complex social dynamics.*
+
 * **Computational Sociology:** Pioneered multi-methodological research by building massive multi-source datasets (Geospatial, NLP on French/Arabic docs, Event Data).
 * **Predictive Modeling:** Modeled the spread of civil unrest (Arab Spring) using **spatio-temporal survival analysis**, identifying mechanisms of scaling a local tribal revolt into a nationwide revolution.
 * **Dissemination:** Published 6 peer-reviewed journal articles and several white papers; presented results to technical and policy audiences.
 
-### **Stats & Methods Teaching / Research Assistant**
-**University of Texas at Austin** | Austin, TX | 2010 – 2017
+### **Stats & Methods Teaching / Research**
+**University of Texas at Austin** | Austin, TX | *2010 – 2017*
+
+*Sought-after statistical consultant and assistant instructor selected by faculty across four departments to teach advanced methods and design core programming curricula.*
 
 * **Instruction:** Personally selected by Professors in several departments for expertise to teach PhD and undergraduate statistics, programming, and methods for 6 semesters.
 * **Curriculum Design:** Designed stats programming labs for Stata, used for several years by the UT Sociology Department.
@@ -88,8 +99,18 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **Modeling:** Fitted complex models including multi-level/mixed-effects regressions, survival analysis, and genetic algorithms for network core-periphery estimation.
 * **Methodological Innovation:** Developed a new Bayesian method for diagnosing and imputing missing data in time-series network data using multi-level prediction.
 
+### **Technical Support Expert (Part-Time)**
+**Overleaf (WriteLaTeX)** | Remote | *2013 – 2016*
+
+*Served as a specialized technical troubleshooter for the world’s leading online LaTeX editor, debugging compilation errors for the academic community and translating user friction into product improvements.*
+
+* **Community Enablement:** Provided advanced technical support for the global academic community, debugging complex LaTeX compilation errors and package conflicts for researchers and students.
+* **Product Feedback:** Acted as a bridge between users and the core engineering team, identifying recurring bugs and contributing to the improvement of platform documentation and user guides.
+
 ### **Program & Policy Advisor**
-**United Nations Development Programme (UNDP)** | NY & Beirut | 2005 – 2010
+**United Nations Development Programme (UNDP)** | NY & Beirut | *2005 – 2010*
+
+*Strategic advisor for an ~$880M regional portfolio and critical security operations, bridging quantitative analysis with executive-level policy execution.*
 
 * **Strategic Advising & Portfolio Management:** Strategic advisor for an **$880M USD** annual regional portfolio. Bridged the gap between complex quantitative development metrics and strategic policy for 18+ country offices.
 * **Security & Crisis Management:** Served as Security Focal Point for regional HQ, managing building and personnel security protocols. Led critical security hardening and risk mitigation following the 2007 Algiers bombing., ensuring the safety and continuity of international staff and operations in high-risk environments.
@@ -97,7 +118,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 
 ---
 
-## Education
+## **Education**
 
 * **Ph.D. in Sociology (Politics & Statistical Methods)** | UT Austin | 2017
     * *Distinction in Comprehensive Exams; Specialization in Demography*
@@ -110,7 +131,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 
 ---
 
-## Awards & Recognition
+## **Awards & Recognition**
 
 * **Dell Technologies:**
     * **LTI Stock Award:** For exceptional achievements in AI Product Management.
