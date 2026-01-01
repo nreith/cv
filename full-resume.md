@@ -18,7 +18,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 
 | **Domain** | **Competencies & Tools** |
 | :--- | :--- |
-| **Agentic AI & GenAI** | Agentic Workflows (ReAct, Planning, Reflection, Self-Correction), Multi-Agent Systems (LangGraph, CrewAI, AutoGen), Model Context Protocol (MCP), Agent to Agent (A2A), Tool Use/Function Calling, RAG 2.0 (GraphRAG, Hybrid Search, Semantic Caching), Prompt Engineering (DSPy, Chain-of-Thought), LLM Eval (RAGAS, MLFlow, DeepEval/G-Eval). |
+| **Agentic AI & GenAI** | Agentic Workflows (ReAct, Planning, Reflection, Self-Correction), Multi-Agent Systems (LangGraph, CrewAI, AutoGen), Model Context Protocol (MCP), Agent to Agent (A2A), Tool Use/Function Calling, RAG 2.0 (GraphRAG, Hybrid Search, Semantic Caching), Prompt Engineering (DSPy, Chain-of-Thought), LLM Evaluation (RAGAS, MLFlow, DeepEval/G-Eval). |
 | **Architecture & Cloud** | Kubernetes (Multi-cluster/HA), Microservices, Distributed Systems, Azure/AWS/Hybrid Cloud and On-Prem, Infrastructure as Code (Terraform, Ansible), Linux and Container Optimization, Global Load Balancing. |
 | **MLOps & Engineering** | Full Lifecycle (CI/CD/CT), Model Serving (vLLM, Kserve, Triton), Observability (Prometheus, Grafana, Splunk, Dynatrace), Feature Stores (Feast), Semantic Caching, Agent Memory (MemGPT), Vector DBs (PGVector, Milvus, Pinecone, Redis). |
 | **Programming** | **Python** (Advanced), **Go**, **SQL**, R, Bash, C#, Stata, LaTeX. |
@@ -46,10 +46,9 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **Intent-to-Agent (I2A) Engine:** Architected a high-throughput routing engine using semantic similarity and few-shot classification. Reduced "incorrect agent" transfers by **40%** with **90% sustained accuracy**, triaging millions of daily chat sessions.
 * **Cloud-Native Solutions:** Coordinated technical solutioning and security advising for a substantial AWS cloud-prem deployment of Glean.AI (Dell Sales Chat), ensuring on-time delivery by resolving complex hybrid-cloud+prem networking and IAM role-mapping challenges.
 * **Platform Architecture:** Major contributor to company-wide AI Acceleration Platform including centralized auth, routing, logging, and session management via a common API gateway.
-* **Core Product Engineering:** Architected and contributed code and docs to **AskDell** (Agentic AI/RAG Chatbot), **Intent-Orchestrator** (Agentic framework), **JupyterHub**, **MLFlowHub (Multi-Tenant MLFlow)**, and **Dell Feature Store** (Feast fork), and **Kserve** (Model Inferencing).
+* **Core Product Engineering:** Architected and contributed code and docs to **AskDell** (Agentic AI/RAG Chatbot), **Intent-Orchestrator** (Agentic framework), **JupyterHub**, **MLFlowHub (Multi-Tenant MLFlow)**, **Dell Feature Store** (Feast fork), and **Kserve** (Model Inferencing).
 * **Stateful Context Management:** Solutioned multi-tenant state persistence, ensuring user context is preserved across failovers and complex agent hand-offs.
 * **Full-Stack Observability & AIOps:** Core contributor to **AskDell** (Enterprise RAG Chatbot) and **Intent-Orchestrator**. Built custom "Quality of Response" metrics tracking LLM relevancy and P95/P99 latency.
-* **Tooling Development:** Architected and wrote code for **JupyterHub**, **MLFlowHub** (Multi-tenant MLFlow), **Dell Feature Store** (Feast fork), and **Kserve** (Inference).
 
 **Infrastructure, DevOps & Security**
 * **High Availability (HA):** Maintained **100% uptime** during two massive Black Friday events via pre-event load testing and automated scaling policies.
@@ -113,7 +112,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 *Strategic advisor for an ~$880M regional portfolio and critical security operations, bridging quantitative analysis with executive-level policy execution.*
 
 * **Strategic Advising & Portfolio Management:** Strategic advisor for an **$880M USD** annual regional portfolio. Bridged the gap between complex quantitative development metrics and strategic policy for 18+ country offices.
-* **Security & Crisis Management:** Served as Security Focal Point for regional HQ, managing building and personnel security protocols. Led critical security hardening and risk mitigation following the 2007 Algiers bombing., ensuring the safety and continuity of international staff and operations in high-risk environments.
+* **Security & Crisis Management:** Served as Security Focal Point for regional HQ, managing building and personnel security protocols. Led critical security hardening and risk mitigation following the 2007 Algiers bombing, ensuring the safety and continuity of international staff and operations in high-risk environments.
 * **Regional Operations:** Orchestrated cross-border initiatives and **$50M+** training programs, synchronizing objectives between UN Headquarters and decentralized field offices.
 
 ---
