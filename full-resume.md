@@ -2,9 +2,7 @@
 
 **Solutions Architect | AI/ML Engineer | Data Scientist | Product Owner**
 
-Round Rock, TX | nreith@gmail.com | (646) 821-1880
-
-[LinkedIn](https://www.linkedin.com/in/nreith) | [GitHub](http://www.github.com/nreith) | [Indeed](https://profile.indeed.com/p/nicholasr-t4q670g)
+Round Rock, TX | nreith@gmail.com | (646) 821-1880 | [LinkedIn](https://www.linkedin.com/in/nreith) | [GitHub](http://www.github.com/nreith) | [Indeed](https://profile.indeed.com/p/nicholasr-t4q670g)
 
 ---
 
@@ -14,16 +12,20 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 **Unique Differentiator:** Ph.D. Sociologist with a deep background in advanced statistical research and multilingual fluency (English, French, Spanish, Arabic). Specialized in bridging the gap between complex quantitative architecture and executive business strategy, ensuring AI solutions are not only technically sound but organizationally impactful.
 
 ---
+
 ## **Technical Skills**
 
-| **Domain** | **Competencies & Tools** |
-| :--- | :--- |
-| **Agentic AI & GenAI** | Agentic Workflows (ReAct, Planning, Reflection, Self-Correction), Multi-Agent Systems (LangGraph, CrewAI, AutoGen), Model Context Protocol (MCP), Agent to Agent (A2A), Tool Use/Function Calling, RAG 2.0 (GraphRAG, Hybrid Search, Semantic Caching), Prompt Engineering (DSPy, Chain-of-Thought), LLM Evaluation (RAGAS, MLFlow, DeepEval/G-Eval). |
-| **Architecture & Cloud** | Kubernetes (Multi-cluster/HA), Microservices, Distributed Systems, Azure/AWS/Hybrid Cloud and On-Prem, Infrastructure as Code (Terraform, Ansible), Linux and Container Optimization, Global Load Balancing. |
-| **MLOps & Engineering** | Full Lifecycle (CI/CD/CT), Model Serving (vLLM, Kserve, Triton), Observability (Prometheus, Grafana, Splunk, Dynatrace), Feature Stores (Feast), Semantic Caching, Agent Memory (MemGPT), Vector DBs (PGVector, Milvus, Pinecone, Redis). |
-| **Programming** | **Python** (Advanced), **Go**, **SQL**, R, Bash, C#, Stata, LaTeX. |
-| **AI Security** |  LLM Red Teaming, OWASP Top 10 for LLMs (Prompt Injection, Insecure Output Handling), Adversarial Robustness, PII Anonymization, RBAC for Tool-Use/MCP Servers, CVE scanning/patching, AI Policy (EU AI Act/NIST). |
-| **Advanced Research & Statistics** | Multivariate Regression, Bayesian Inference, Survival Analysis, Multi-level Modeling, Social Network Analysis (SNA), Spatial/Temporal Modeling, NLP, Causal Inference, Experimental Design. |
+**Agentic AI & GenAI:** Agentic Workflows (ReAct, Planning, Reflection, Self-Correction), Multi-Agent Systems (LangGraph, CrewAI, AutoGen), Model Context Protocol (MCP), Agent to Agent (A2A), Tool Use/Function Calling, RAG 2.0 (GraphRAG, Hybrid Search, Semantic Caching), Prompt Engineering (DSPy, Chain-of-Thought), LLM Evaluation (RAGAS, MLFlow, DeepEval/G-Eval).
+
+**Architecture & Cloud:** Kubernetes (Multi-cluster/HA), Microservices, Distributed Systems, Azure/AWS/Hybrid Cloud and On-Prem, Infrastructure as Code (Terraform, Ansible), Linux and Container Optimization, Global Load Balancing.
+
+**MLOps & Engineering:** Full Lifecycle (CI/CD/CT), Model Serving (vLLM, Kserve, Triton), Observability (Prometheus, Grafana, Splunk, Dynatrace), Feature Stores (Feast), Semantic Caching, Agent Memory (MemGPT), Vector DBs (PGVector, Milvus, Pinecone, Redis).
+
+**Programming:** **Python** (Advanced), **Go**, **SQL**, R, Bash, C#, Stata, LaTeX.
+
+**AI Security:**  LLM Red Teaming, OWASP Top 10 for LLMs (Prompt Injection, Insecure Output Handling), Adversarial Robustness, PII Anonymization, RBAC for Tool-Use/MCP Servers, CVE scanning/patching, AI Policy (EU AI Act/NIST).
+
+**Advanced Research & Statistics:** Multivariate Regression, Bayesian Inference, Survival Analysis, Multi-level Modeling, Social Network Analysis (SNA), Spatial/Temporal Modeling, NLP, Causal Inference, Experimental Design.
 
 ---
 
@@ -35,6 +37,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 *Architect and Product Owner for major components of Dell's internal AI/ML "startup" platform (DSX/AIA), scaling from Beta to enterprise adoption. Promoted twice during tenure.*
 
 **Strategic Leadership & Product Growth**
+
 * **Hyper-Growth Scaling:** Scaled platform adoption to **60,000+ unique users**, achieving a **350%+ QoQ growth rate** and delivering over **$100M in estimated business value** through productivity gains, license cost savings, and LLM cost savings.
 * **Engineering Management:** Led 3 distinct engineering teams (~20 total engineers) via Agile sprints. Successfully managed organizational restructuring while delivering 5 core products.
 * **Strategic Partnerships:** Managed high-stakes technical alliances with **VMware and NVIDIA** to accelerate HPC delivery; acted as the primary technical liaison for internal Dell IT customers.
@@ -43,6 +46,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **Operations & Support:** Achieved 99.9%+ uptime and reduced support tickets per user per week by 75% through improved observability KPIs and technical maturity.
 
 **AI Architecture & Agentic Engineering**
+
 * **Intent-to-Agent (I2A) Engine:** Architected a high-throughput routing engine using semantic similarity and few-shot classification. Reduced "incorrect agent" transfers by **40%** with **90% sustained accuracy**, triaging millions of daily chat sessions.
 * **Cloud-Native Solutions:** Coordinated technical solutioning and security advising for a substantial AWS cloud-prem deployment of Glean.AI (Dell Sales Chat), ensuring on-time delivery by resolving complex hybrid-cloud+prem networking and IAM role-mapping challenges.
 * **Platform Architecture:** Major contributor to company-wide AI Acceleration Platform including centralized auth, routing, logging, and session management via a common API gateway.
@@ -51,6 +55,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **Full-Stack Observability & AIOps:** Core contributor to **AskDell** (Enterprise RAG Chatbot) and **Intent-Orchestrator**. Built custom "Quality of Response" metrics tracking LLM relevancy and P95/P99 latency.
 
 **Infrastructure, DevOps & Security**
+
 * **High Availability (HA):** Maintained **100% uptime** during two massive Black Friday events via pre-event load testing and automated scaling policies.
 * **Observability Evolution:** Migrated 5 core products from reactive alerting to proactive AIOps anomaly detection using a unified **Prometheus/Grafana/Splunk** stack.
 * **Kubernetes Hardening:** Re-architected products for multi-cluster failover and reduced security vulnerabilities by **50%+** through automated Linux hardening scripts.
@@ -67,7 +72,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **Production Engineering:** Wrote production-grade **Python (FastAPI)** and **C#** APIs. Containerized front-end apps and back-end models, utilizing Azure DevOps/GitLab CI for automated scanning and secrets management.
 * **Infrastructure Bottlenecks:** Built dev solutions to provide compute for model training with CPU/GPU and built CI/CD pipelines to publish Python packages and deploy model-serving APIs.
 * **Pipelines & Tooling:** Wrote reusable CI/CD templates (Azure DevOps, GitLab CI), including secrets management and automated scanning.
-* **Knowledge Leadership:** Founded the internal **"Data Scientists' Guide to the Galaxy"** wiki and created shared Linux-on-Windows config repositories used by the wider team. Taught team about containers, Kubernetes and cicd.
+* **Knowledge Leadership:** Founded the internal **"Data Scientists' Guide to the Galaxy"** wiki and created shared Linux-on-Windows config repositories used by the wider team. Taught team containers, Kubernetes and cicd.
 
 ### **Post-Doctoral Data Scientist**
 **University of Texas at Austin** | Austin, TX | *2017 – 2018*
@@ -78,7 +83,7 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **NLP & Topic Modeling:** Developed **LDA/BERTopic pipelines** to categorize 20 years of non-profit operational shifts, transforming unstructured text into structured knowledge graphs.
 * **Code Optimization:** Refactored legacy research codebases using vectorization and multiprocessing, reducing runtimes from **weeks to hours**.
 
-### **Ph.D. Researcher & Dissertation Research**
+### **Ph.D. Dissertation Research**
 **University of Texas at Austin** | Austin, TX | *2014 – 2017*
 
 *Pioneered computational sociology methods by building multi-source datasets and applying predictive survival analysis to model complex social dynamics.*
@@ -107,13 +112,13 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 * **Product Feedback:** Acted as a bridge between users and the core engineering team, identifying recurring bugs and contributing to the improvement of platform documentation and user guides.
 
 ### **Program & Policy Advisor**
-**United Nations Development Programme (UNDP)** | NY & Beirut | *2005 – 2010*
+**United Nations Development Programme (UNDP)** | NYC & Beirut | *2005 – 2010*
 
-*Strategic advisor for an ~$880M regional portfolio and critical security operations, bridging quantitative analysis with executive-level policy execution.*
+*Strategic advisor for an ~$880M regional portfolio and critical security operations, bridging quantitative analysis with executive-level policy execution for political, social and economic development.*
 
 * **Strategic Advising & Portfolio Management:** Strategic advisor for an **$880M USD** annual regional portfolio. Bridged the gap between complex quantitative development metrics and strategic policy for 18+ country offices.
 * **Security & Crisis Management:** Served as Security Focal Point for regional HQ, managing building and personnel security protocols. Led critical security hardening and risk mitigation following the 2007 Algiers bombing, ensuring the safety and continuity of international staff and operations in high-risk environments.
-* **Regional Operations:** Orchestrated cross-border initiatives and **$50M+** training programs, synchronizing objectives between UN Headquarters and decentralized field offices.
+* **Regional Operations:** Orchestrated cross-border initiatives and **$5M+** training programs, synchronizing objectives between UN Headquarters and decentralized field offices.
 
 ---
 
@@ -121,12 +126,12 @@ Round Rock, TX | nreith@gmail.com | (646) 821-1880
 
 * **Ph.D. in Sociology (Politics & Statistical Methods)** | UT Austin | 2017
     * *Distinction in Comprehensive Exams; Specialization in Demography*
+* **Fulbright Fellowship** | L'Institut Français du Proche-Orient (Damascus, Syria) | 2005
+    * *Arabic Language and Literature*
 * **M.A. in Arab Studies (Political Science)** | Georgetown University | 2004
     * *Cum Laude; FLAS and Sabah Fellowships*
 * **B.A. in French, Spanish, Religious Studies** | NYU | 2002
     * *Magna Cum Laude; Phi Beta Kappa; with Honors*
-* **Fulbright Fellowship** | L'Institut Français du Proche-Orient (Damascus, Syria) | 2005
-    * *Arabic Language and Literature*
 
 ---
 
