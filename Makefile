@@ -1,35 +1,40 @@
 # Variables
-SRC = full-resume.md
-OUT = Nick_Reith_Resume.pdf
 DOCKER_IMAGE = pandoc/extra
 
-# Configuration Flags (Moved out of the markdown file)
-# --from markdown-yaml_metadata_block : DISABLES metadata parsing (Fixes the error with --- in Markdown file)
-# --pdf-engine=xelatex         -> Uses XeLaTeX for better font support
-# -V geometry:margin=0.5in  -> Sets margins
-# -V colorlinks=true        -> Makes links clickable
-# -V urlcolor=0055AA        -> Sets link color to professional blue
-# -V mainfont="FreeSerif" -> Sets a standard serif font
-# -V sansfont="FreeSans"  -> Sets a standard sans font
-ARGS = --from markdown-yaml_metadata_block \
-       --pdf-engine=xelatex \
-       -V geometry:margin=0.5in \
-       -V colorlinks=true
-# 	    \
-#        -V urlcolor=0055AA
+# Configuration Flags
+# Use += to append flags. This makes it easier to comment out specific lines
+# without worrying about trailing backslashes (\).
 
-# 	   \
-#        -V mainfont="FreeSerif" \
-#        -V sansfont="FreeSans"
+ARGS  = --from markdown-yaml_metadata_block
+ARGS += --pdf-engine=xelatex
+ARGS += -V geometry:margin=0.5in
+ARGS += -V colorlinks=true
 
-# Build command
-build:
-	@echo "Building PDF using Docker..."
-	docker run --rm -v "$(PWD):/data" \
+# Optional/Commented out flags:
+# ARGS += -V urlcolor=0055AA
+# ARGS += -V mainfont="FreeSerif"
+# ARGS += -V sansfont="FreeSans"
+
+# Define sources: All .md files excluding README.md
+SRCS = $(filter-out README.md, $(wildcard *.md))
+
+# Define targets: Replace .md extension with .pdf for all sources
+PDFS = $(SRCS:.md=.pdf)
+
+# Default target
+all: $(PDFS)
+	@echo "All PDFs built successfully."
+
+# Pattern Rule: How to build a .pdf from a .md
+# $< is the source file (input.md)
+# $@ is the target file (output.pdf)
+%.pdf: %.md
+	@echo "Building $@ from $<..."
+	@docker run --rm -v "$(CURDIR):/data" \
 		$(DOCKER_IMAGE) \
-		$(SRC) -o $(OUT) \
+		"$<" -o "$@" \
 		$(ARGS)
-	@echo "Success! PDF generated: $(OUT)"
 
+# Clean target to remove generated PDFs
 clean:
-	rm -f $(OUT)
+	rm -f $(PDFS)
